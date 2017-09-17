@@ -27,8 +27,8 @@
         <checksum>https://raw.githubusercontent.com/canalnereo/RepoCanalNereo/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/canalnereo/master/Repositorio/</datadir>
     </extension>
-	
-<extension point="xbmc.addon.metadata">
+
+  <extension point="xbmc.addon.metadata">
     <summary>[COLOR goldenrod][B]JHG.MASTER.3.0 [/B][/COLOR]</summary>
     <description>
 ----= Bienvenidos a JHG.MASTER.3.0 TV Addon =----
