@@ -61,7 +61,7 @@ enlaces estan colocado de manera libre en interNET.
   </extension>
 </addon>
 
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.22" provider-name="TierraMedia">
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.23" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
