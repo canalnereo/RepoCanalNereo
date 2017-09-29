@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon
+	id="plugin.video.arenavisionezy"
+	name="ArenaVision EZY"
+	version="5.3.8"
+	provider-name="Wazzu">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="program.plexus" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>ArenaVision EZY</summary>
+		<description>Interfaz para ArenaVision</description>
+		<platform>all</platform>
+		<license/>
+		<forum/>
+		<website/>
+		<email>egrueda@gmail.com</email>
+		<source/>
+	</extension>
+	<extension point="xbmc.addon.repository" name="ArenaVision EZY">
+		<info compressed="false">https://avezy.tk/repo/addons.xml</info>
+		<checksum>https://avezy.tk/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://avezy.tk/repo/zip/</datadir>
+	</extension>
+</addon>
+
 <addon id="plugin.video.Atlantis"
        name="[COLOR gold]Atlantis[/COLOR]"
        version="1.1.7"
@@ -28,6 +57,32 @@
     <description>Peliculas, series, series documentales, programas de tv.</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.avezy" name="AvEZY" version="1.4.1" provider-name="Wazzu">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="program.plexus" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>AvEZY</summary>
+		<description>Interfaz para ArenaVision desarrollado por Wazzu</description>
+		<platform>all</platform>
+		<license/>
+		<forum/>
+		<website/>
+		<email>egrueda@gmail.com</email>
+		<disclaimer>El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida.</disclaimer>
+		<source/>
+	</extension>
+	<extension point="xbmc.addon.repository" name="AvEZY">
+		<info compressed="true">https://raw.githubusercontent.com/egrueda/kodi-repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/egrueda/kodi-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/egrueda/kodi-repo/master/zip/</datadir>
+	</extension>
 </addon>
 
 <addon id="plugin.video.Explora"
