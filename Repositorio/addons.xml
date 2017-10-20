@@ -354,9 +354,10 @@ enlaces estan colocado de manera libre en interNET.
   </extension>
 </addon>
 
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.23" provider-name="TierraMedia">
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.26" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simple.downloader" version="1.9.5"/> # Add this
   </requires>
   <extension point="xbmc.python.pluginsource" library="orthanc.py">
     <provides>video</provides>
@@ -368,8 +369,16 @@ enlaces estan colocado de manera libre en interNET.
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>TV</summary>
+    <news>[B][COLOR gold]Estos son los cambios de la versiÃ³n 0.0.24:[/B][/COLOR]
+				[COLOR lime][B]Mejoras Importantes [/B][/COLOR]
+		- OpciÃ³n para configurar la cuenta de kbg.
+		- En el menÃº principal una secciÃ³n dinÃ¡mica Especiales (basado en sagas).
+		- En el menÃº dibujos aÃ±adido pelis de dibujos mÃ¡s vistas y pelis de dibujos mÃ¡s vistas en el Ãºltimo mes.
+		- Corregido fanart de algunas opciones que aparecÃ­an vacÃ­as.
+
+    </news>
     <description>Visualiza el contenido de la nube, series, pelÃ­culas.</description>
-    <disclaimer></disclaimer>
+    <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
     <language></language>
     <platform>all</platform>
     <license></license>
