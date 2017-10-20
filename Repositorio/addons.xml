@@ -205,7 +205,7 @@
 
 <addon id="plugin.video.Hercules"
        name="Hercules"
-       version="1.0.7"
+       version="1.0.8"
        provider-name="Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
