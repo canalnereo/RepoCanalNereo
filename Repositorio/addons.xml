@@ -489,24 +489,4 @@ enlaces estan colocado de manera libre en interNET.
         <platform>all</platform>
     </extension>
 </addon>
-
-<addon id="script.afestaajedrez" name="[COLOR lime]AJEDREZ FESTA[/COLOR]" version="0.0.1" provider-name="FESTA ADDONS lourdes y picapau(addonfesta@gmail.com)">
-    <requires>
-        <import addon="xbmc.python" version="2.14.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="addon.py">
-        <provides>executable video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">ajedrez para Kodi</summary>
-        <description lang="en">juega al ajedrez en kodi! juego traducido al castellano. CREADO POR TOM C. SCHEPER Y MODIFICADO POR ADDONS FESTA, LOURDES Y PICAPAU.
-        </description>
-        <license>All rights reserved</license>
-        <language></language>
-        <forum></forum>
-        <source>https://github.com/tomcss/script.chess</source>
-        <email>addonfesta@gmail.com</email>
-    </extension>
-</addon>
 </addons>
