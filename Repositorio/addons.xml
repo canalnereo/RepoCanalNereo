@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.angelaaron" name="PVRIPTV" version="0.0.3" provider-name="Angelaaron">
+<addon id="plugin.video.angelaaron" name="Angel Aaron" version="0.0.3" provider-name="Angelaaron">
     <requires>
     </requires>
     <extension point="xbmc.python.pluginsource"
