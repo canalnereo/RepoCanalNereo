@@ -150,6 +150,29 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.copiadb"
+       name="CopiaDB"
+       version="3.0.5"
+       provider-name="fightnight/Leinad4Mind">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.6.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pt_PT">ConteÃºdos dos sites DiskoKosmiko.mx e KBagi.com no Kodi</summary>
+        <summary lang="pt_BR">ConteÃºdos dos sites DiskoKosmiko.mx e KBagi.com no Kodi</summary>
+        <summary lang="en">Contents from DiskoKosmiko.mx and KBagi.com on Kodi</summary>
+        <description lang="pt_PT">VÃª os teus conteÃºdos e os das comunidades diskokosmiko (MÃ©xico) e kumpulbagi (IndonÃ©sia) no Kodi.</description>
+        <description lang="pt_BR">Veja os seus conteÃºdos e os das comunidades diskokosmiko (MÃ©xico) e kumpulbagi (IndonÃ©sia) no Kodi.</description>
+        <description lang="en">Check out yours and others people contents from diskokosmiko (Mexico) and kumpulbagi (Indonesia) communities on Kodi.</description>
+        <platform>all</platform>
+        <source>https://github.com/Leinad4Mind/Leinad4Mind-kodi-addons/tree/master/plugin.video.copiadb</source>
+    </extension>
+</addon>
+
 <addon id="plugin.video.deportesalacarta"
     name="Deportesalacarta"
     version="1.33"
