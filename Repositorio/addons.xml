@@ -482,7 +482,7 @@ Telegram: t.me/stvabuild</description>
 
 <addon id="plugin.video.next"
 	name="[COLOR blue]NEXT[/COLOR]"
-	version="0.0.3"
+	version="0.0.6"
 	provider-name="NEXT">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
