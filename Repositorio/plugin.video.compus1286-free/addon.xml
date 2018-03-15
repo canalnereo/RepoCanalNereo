@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.compus1286-free"
+       name="[COLOR green]Com[/COLOR][COLOR white]pus[/COLOR][COLOR red]1286[/COLOR] [COLOR red]Free[/COLOR]"
+       version="1.0.0"
+       provider-name="Compus1286 Team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Compus1286  - Peliculas - Live Tv - Videos - Series Todo Gratis</summary>
+    <description>Compus1286 Free. es un addon de Kodi que permite transmitir contenidos multimedia.
+	    [B]Este addon es una creacion de comtenido multimedia.[/B] Utilízalo bajo 
+	    tu responsabilidad. Su autor queda eximido de toda responsabilidad si este addon se distribuye 
+	    acceso a contenidos protegidos por derechos de autor sin el permiso de sus creadores.
+	</description>
+    <platform>all</platform>
+  </extension>
+</addon>
