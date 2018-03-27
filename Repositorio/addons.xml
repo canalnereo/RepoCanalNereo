@@ -332,6 +332,36 @@ Telegram: t.me/stvabuild</description>
     </extension>
 </addon>
 
+<addon id="plugin.video.Elrincondelterror"
+       name="[COLOR red]EL RINCON DEL TERROR[/COLOR]"
+       version="0.0.6"
+       provider-name="ERDL">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube"  />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por ERDL</summary>
+    <description>El rincÃ³n lo peta con con la vuelta de su addon mÃ¡s terrorificooo.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.Explora"
        name="Explora"
        version="1.3.0"
@@ -437,36 +467,6 @@ Telegram: t.me/stvabuild</description>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Trailers de Cine y Peliculas en EspaÃ±ol</summary>
     <description lang="en">ADDON CREADO PARA VISUALIZAR TRAILERS DESDE TU KODI</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.MagyckPi"
-       name="[COLOR deeppink]Magyck[/COLOR][COLOR lime] Pi[/COLOR]"
-       version="0.0.1"
-       provider-name="Jose">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Creado por HuNtEr</summary>
-    <description>MagyckPi 2017</description>
     <platform>all</platform>
   </extension>
 </addon>
