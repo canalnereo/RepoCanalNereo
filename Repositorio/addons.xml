@@ -952,6 +952,32 @@ https://t.me/sinbarreras
   </extension>
 </addon>
 
+<addon id="plugin.video.tvalacarta"
+    name="tvalacarta"
+    version="4.1.0"
+    provider-name="tvalacarta">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">TelevisiÃ³n a la carta</summary>
+    <description lang="es">Para ver la televisiÃ³n por Internet, a la carta y desde tu media center</description>
+    <summary lang="en">TV on demand (Spanish)</summary>
+    <description lang="en">Watch on demand spanish TV on your media center</description>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>http://www.mimediacenter.info/foro</forum>
+    <website>http://blog.tvalacarta.info/plugin-xbmc/tvalacarta</website>
+    <email>tvalacarta@gmail.com</email>
+    <source>https://github.com/tvalacarta/tvalacarta</source>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login|startup">
+  </extension>
+</addon>
+
 <addon id="plugin.video.tvchopo"
        name="[COLOR fuchsia]T[/COLOR][COLOR green]V[/COLOR][COLOR yellow]C[/COLOR][COLOR orange]HO[/COLOR][COLOR pink]PO[/COLOR]"
        version="5.0.5"
