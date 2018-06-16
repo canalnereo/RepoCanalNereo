@@ -333,45 +333,6 @@ Telegram: t.me/stvabuild</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.DArte"
-       name="[COLOR gray]D[/COLOR][COLOR white]Â´[/COLOR][COLOR darkgray]ARTE[/COLOR]"
-       version="0.0.1"
-       provider-name="ERDL - DÂ´ARTE">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube"  />
-    <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-	<extension point="xbmc.addon.repository" name="El Rincon De Lolo">
-        <info>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/djliptv/ElRinconDelLolo/master/RepoERDL/Repositorio/</datadir>
-    </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>[COLOR gray]D[/COLOR][COLOR white]Â´[/COLOR][COLOR darkgray]ARTE[/COLOR] Addon</summary>
-    <description>[COLOR gray]D[/COLOR][COLOR white]Â´[/COLOR][COLOR darkgray]ARTE[/COLOR] Kodi Addon.
-Creado por: ERDl y DÂ´Arte.
-Copyright 2018.
-ERDL - DÂ´ARTE GNU/GPU 2018 LICENSE.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.deportesalacarta"
     name="Deportesalacarta"
     version="1.33"
@@ -406,36 +367,6 @@ ERDL - DÂ´ARTE GNU/GPU 2018 LICENSE.</description>
         <description>Todos los contenidos de la comunidad DiskoKosmiko en Kodi.</description>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="plugin.video.Elrincondelterror"
-       name="[COLOR red]EL RINCON DEL TERROR[/COLOR]"
-       version="0.0.6"
-       provider-name="ERDL">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" />
-    <import addon="plugin.video.youtube"  />
-    <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Creado por ERDL</summary>
-    <description>El rincÃ³n lo peta con con la vuelta de su addon mÃ¡s terrorificooo.</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.Explora"
@@ -696,56 +627,6 @@ ERDL - DÂ´ARTE GNU/GPU 2018 LICENSE.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.29" provider-name="TierraMedia">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.simple.downloader" version="1.9.5"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="orthanc.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.repository" name="Palantir Repo">
-        <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>TV</summary>
-    <news>[B][COLOR gold]Estos son los cambios de la versiÃ³n 0.0.29:[/B][/COLOR]
-        - Soporte urlresolver
-          [COLOR lime][B] versiÃ³n 0.0.28 [/B][/COLOR]
-        - Cambios menores, arreglo de bug
-          [COLOR lime][B] versiÃ³n 0.0.27 [/B][/COLOR]
-        - Cambio fanart.
-        - Posibilidad de mostrar series anime tambiÃ©n en dibujos
-        - Funcionalidad interna para desactivar contenido que no funcione
-          [COLOR lime][B] versiÃ³n 0.0.26 [/B][/COLOR]
-        - Cambio pequeÃ±o para corregir incompatibilidad con Jarvis
-          [COLOR lime][B] versiÃ³n 0.0.25 [/B][/COLOR]
-        - Arreglar el error cuando se instala de 0
-          [COLOR lime][B] versiÃ³n 0.0.24 [/B][/COLOR]
-        - OpciÃ³n para configurar la cuenta de kbg.
-        - En el menÃº principal una secciÃ³n dinÃ¡mica Especiales (basado en sagas).
-        - En el menÃº dibujos aÃ±adido pelis de dibujos mÃ¡s vistas y pelis de dibujos mÃ¡s vistas en el Ãºltimo mes.
-        - Corregido fanart de algunas opciones que aparecÃ­an vacÃ­as.
-    </news>
-    <description>Visualiza el contenido de la nube, series, pelÃ­culas.</description>
-    <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.gif</fanart>
-    </assets>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
 <addon id="plugin.video.pequelandia" name="[COLOR gold]PEQUELANDIA[/COLOR]"	version="1.0"	provider-name="KQ">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -887,6 +768,37 @@ https://t.me/sinbarreras
   <news>
    Pierwsza wersja :)
   </news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tacones"
+       name="[COLOR red]TACONES[/COLOR]"
+       version="1.1"
+       provider-name="La Mala de la Novela">
+  <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+     <import addon="script.module.beautifulsoup" version="3.2.1"/>
+     <import addon="script.module.simple.downloader" version="0.9.4"/>
+     <import addon="script.module.beautifulsoup4" />
+     <import addon="script.module.requests" />
+     <import addon="script.module.httplib2" />
+     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+     <import addon="script.module.youtube.dl" optional="true"/>
+     <import addon="plugin.video.youtube" optional="true" />
+     <import addon="script.module.urlresolver" optional="true"/>
+     <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>TACONES</summary>
+    <description>Addon sin Ã¡nimo de lucro y con fines exclusivamente educativos</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
